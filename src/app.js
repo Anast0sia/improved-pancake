@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: ["http://192.168.1.65:5173", "http://localhost:5173", "https://special-doodle-pi.vercel.app/"],
+    origin: ["http://192.168.1.65:5173", "http://localhost:5173", "https://special-doodle-pi.vercel.app"],
   })
 );
 
