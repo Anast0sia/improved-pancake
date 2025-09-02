@@ -111,7 +111,7 @@ routerUser.get(
         sameSite: "lax",
         secure: false,
       })
-      .redirect("http://localhost:5173");
+      .redirect("https://special-doodle-pi.vercel.app/");
   }
 );
 
